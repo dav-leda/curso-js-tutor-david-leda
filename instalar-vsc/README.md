@@ -13,13 +13,13 @@
 
 #### 2. Abrir Visual Studio Code y cliquear en el ícono de Extensiones:
 
-![](/img/vsc-ext.png)
+![](img/vsc-ext.png)
 
 #### 3. Buscar la extensión Live Server e instalarla:
 
-![](/img/buscar-live-server.png)
+![](img/buscar-live-server.png)
 
-![](/img/live-server.png)
+![](img/live-server.png)
 
 #### 4. En Visual Studio Code abrir una carpeta vacía que hayamos creado previamente (Open Folder...): 
 
