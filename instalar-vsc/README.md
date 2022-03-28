@@ -31,11 +31,17 @@
 
 ![](img/crear-html.png)
 
-#### 6. Crear una maqueta de HTML escribiendo `html:5` y luego presionando la tecla `TAB`:
+#### 6. Dentro del archivo generar el código HTML escribiendo `html:5` y luego presionando la tecla `TAB`:
 
 ![](img/autocomplete-html.png)
 
-#### 7. Dentro del body del HTML (`<body>`) crear un tíulo (`<h1>`):
+#### Ahí debería aparecerles el código básico de HTML:
+
+![](img/html.png)
+
+#### Si no les funciona pueden copiar este: [index.html](html/index.html)
+
+#### 7. Dentro del body del HTML crear un título:
 
 ![](img/crear-h1.png)
 
