@@ -1,4 +1,4 @@
-### <ins> Curso JavaScript
+## <ins> Curso JavaScript
 Tutor: David Leda </ins>
 <br><br><hr>
 
@@ -29,7 +29,7 @@ let usuario2 = new Usuario();
 let usuario3 = new Usuario();
 // etc...
 ```
-Pueden crear primero un array vacío y luego ir sumando al Array las instancias de la clase, referenciandolas por su posición en el Array:
+Pueden crear primero un array vacío y luego ir sumando al Array las instancias de la clase, referenciándolas por su posición en el Array:
 
 ```js
 let usuarios = [];
