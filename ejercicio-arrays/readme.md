@@ -10,9 +10,13 @@ Tutor: David Leda </ins>
 const datos = ['nombre', 'edad', 'mail']
 
 function ingresarDataUsuario(dato) {
+  
   let input;
-  do input = prompt("Ingrese su " + dato)
-  while (input == '');
+
+  do {
+    input = prompt("Ingrese su " + dato)
+  } while (input == '');
+  
   return input
 }
 
@@ -48,8 +52,9 @@ function crearUsuario () {
   index++
 }
 
-do crearUsuario()
-while (confirm("Desea ingresar otro usuario?"));
+do {
+  crearUsuario()
+} while (confirm("Desea ingresar otro usuario?"));
 ```
 <hr>
 

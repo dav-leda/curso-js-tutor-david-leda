@@ -23,8 +23,11 @@ class Usuario {
 function ingresarDataUsuario (dato) {
 
   let input;
-  do input = prompt("Ingrese su " + dato)
-  while (input == '');
+
+  do {
+    input = prompt("Ingrese su " + dato)
+  } while (input == '');
+  
   return input
 }
 
@@ -41,7 +44,8 @@ function crearUsuario () {
   index++
 }
 
-do crearUsuario()
-while (confirm("Desea ingresar otro usuario?"));
+do {
+  crearUsuario()
+} while (confirm("Desea ingresar otro usuario?"));
 
 alert('Usuarios: \n' + JSON.stringify(usuarios))
